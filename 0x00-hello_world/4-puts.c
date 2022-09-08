@@ -4,22 +4,24 @@
 
 /**
 
-* main - Entry point
+* main - print the string in the put function
 
 *
 
-* Return: Always 0 (Success)
+* Description: using the main function
+
+* this program prints "Programming is like building a multilingual puzzle
+
+* Return: 0
 
 */
-
-
 
 int main(void)
 
 {
 
-    puts("\", "Programming is like building a multilingual puzzle,\n");
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 
-    return (0);
+	return (0);
 
 }
