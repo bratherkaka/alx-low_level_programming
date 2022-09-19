@@ -1,10 +1,4 @@
-/*
- * Project : 0. 98 Battery st.
- * Programmer: Mehdi Zaabi
- * For Holberton School 2020
- */
-
-#include "holberton.h"
+#include "main.h"
 
 /**
  * reset_to_98 - resets value of pointer to 98
