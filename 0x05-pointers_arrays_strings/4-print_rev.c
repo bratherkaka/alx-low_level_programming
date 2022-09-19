@@ -1,19 +1,21 @@
 #include "main.h"
-
 /**
- * print_rev - Prints a string in reverse.
- * @s: string to be reserved.
- */
-void print_rev(char *s)
+* print_most_numbers - checks for a digit (0 through 9).
+*
+* Return: Always 0.
+*/
+void print_most_numbers(void)
 {
-	int len = 0, i;
-
-	while (s[i++])
-		len++;
-
-	for (i = len - 1; i >= 0; i--)
-		_putchar(s[i]);
-
-	_putchar('\n');
+int c;
+for (c = 48; c < 58; c++)
+{
+if (c != 50)
+{
+if (c != 52)
+{
+_putchar(c);
 }
-
+}
+}
+_putchar('\n');
+}
