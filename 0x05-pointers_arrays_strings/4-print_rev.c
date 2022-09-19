@@ -1,21 +1,18 @@
+#include <stdio.h>
+#include <string.h>
 #include "main.h"
+
 /**
-* print_most_numbers - checks for a digit (0 through 9).
-*
-* Return: Always 0.
+*print_rev - Prints a string in reverse order
+*@s: String to reverse
+*Return: Nothing
 */
-void print_most_numbers(void)
+
+void print_rev(char *s)
 {
-int c;
-for (c = 48; c < 58; c++)
-{
-if (c != 50)
-{
-if (c != 52)
-{
-_putchar(c);
-}
-}
-}
-_putchar('\n');
+	int len = strlen(s);
+
+	while (len--)
+		putchar(*(s + len));
+	putchar(10);
 }
