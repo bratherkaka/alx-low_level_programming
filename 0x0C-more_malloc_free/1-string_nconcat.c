@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "holberton.h"
+#include "main.h"
 /**
  * string_nconcat - concatenates 2 strings into a new string,
  * taking the first n from string 2. If n>strlen(s2),
