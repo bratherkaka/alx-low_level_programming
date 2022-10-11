@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "dog.h"
+#include "main.h"
 
 /**
  * init_dog - Define a new type struct dog with the following elements:
