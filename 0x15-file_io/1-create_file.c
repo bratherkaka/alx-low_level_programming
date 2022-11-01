@@ -1,9 +1,5 @@
-/*
- * File: 1-create_file.c
- * Auth: Brennan D Baraban
- */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * create_file - Creates a file.
