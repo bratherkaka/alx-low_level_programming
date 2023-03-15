@@ -1,3 +1,5 @@
+#include "main.c"
+#include <stdio.h>
 /**
  * print_diagsums - Entry point
  * @a: input
