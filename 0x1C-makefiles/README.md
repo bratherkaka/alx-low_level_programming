@@ -1,6 +1,1 @@
-#Makefiles
-==============
-```
-target: dependencies
-<tab> action
-```
+make -f 0-Makefile
