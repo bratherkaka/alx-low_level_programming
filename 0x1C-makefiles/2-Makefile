@@ -12,3 +12,4 @@ $(NAME): $(OBJ)
 	$(CC) -c $< -o $@
 
 .PHONY: all
+
